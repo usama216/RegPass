@@ -11,7 +11,7 @@ import {
 } from "../../../icons";
 import Checkbox from "../input/Checkbox";
 import Label from "../Label";
-import Button from "../../ui/button/Button";
+// import Button from "../../ui/button/Button";
 
 export default function ExampleFormWithIcon() {
   const handleSubmit = (e: React.FormEvent) => {
@@ -74,9 +74,9 @@ export default function ExampleFormWithIcon() {
               <Label className="mb-0"> Remember me</Label>
             </div>
             <div>
-              <Button size="sm">
+              {/* <Button size="sm">
                 Create Account <ArrowRightIcon />
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
